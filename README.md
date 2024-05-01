@@ -11,7 +11,7 @@ This repository hosts our BDA602 final group project, focusing on the detection 
 **IBM Transactions for Anti Money Laundering (AML)**: This dataset provides synthetic transaction data simulating various financial scenarios, which include illicit activities such as smuggling and illegal gambling. Each transaction is labeled to indicate whether it is associated with money laundering.
 - **Source**: [IBM AML Dataset on Kaggle](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/data)
 
-### Datasets Used are "HI-Medium_Trans.csv" and "LI-Medium_Trans.csv"
+### Dataset Used is "HI-Medium_Trans.csv"
 This dataset comprises financial transactions aimed at detecting money laundering activities. Each entry is a transaction record, detailed as explained below.
 #### Data Schema
 - **Timestamp**: The time at which the transaction occurred, formatted as a string.
@@ -29,7 +29,7 @@ This dataset comprises financial transactions aimed at detecting money launderin
 The dataset consists of over 31 million transaction records, providing a rich source for analysis and model training in detecting suspicious financial activities.
   
 ## Methodology
-- **Data Preprocessing**: Standardization, handling missing values, and encoding categorical variables.
+- **Data Preprocessing**: Normalization, handling missing values, and encoding categorical variables.
 - **Exploratory Data Analysis (EDA)**: In-depth analysis to understand underlying patterns and anomalies.
 - **Model Development**: Use of Logistic Regression, Decision Trees, and Random Forests for initial models, followed by more complex algorithms like Gradient Boosting Machines (GBM).
 - **Model Evaluation**: Utilization of cross-validation and performance metrics (Accuracy, Precision, Recall, F1-Score, and AUC-ROC).
@@ -37,7 +37,7 @@ The dataset consists of over 31 million transaction records, providing a rich so
 ## Tools and Technologies
 - **Python**: For data manipulation and model building.
 - **Jupyter Notebook**: For interactive data exploration and visualizations.
-- **Scikit-Learn, TensorFlow**: For implementing and training machine learning models.
+- **Scikit-Learn**: For implementing and training machine learning models.
 
 ## Team Members
 - Sharad Parmar
